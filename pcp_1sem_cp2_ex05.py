@@ -17,7 +17,7 @@ def definir_taxa(parcelas):
 
 def calcular_parcela(valor, taxa, parcelas):
    
-    return (valor * taxa * (1 + taxa)**parcelas) / ((1 + taxa)**parcelas - 1)
+    return valor * ((taxa * (1 + taxa)**parcelas) / ((1 + taxa)**parcelas - 1))
 
 def calcular_total(parcela, parcelas):
     return parcela * parcelas

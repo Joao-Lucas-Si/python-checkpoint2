@@ -8,7 +8,7 @@ gs = float(input("qual sua nota na gs: "))
 
 # João Lucas
 
-def min(notas):
+def minimo(notas):
     menor = None
 
     for nota in notas:
@@ -22,7 +22,7 @@ def min(notas):
 
 
 def nota_checkpoint(cp1, cp2, cp3):
-    return cp1 + cp2 + cp3 - min([cp1, cp2, cp3])
+    return cp1 + cp2 + cp3 - minimo([cp1, cp2, cp3])
 
 
 # Enzo
@@ -42,6 +42,7 @@ nota = nota_total * 0.4
 
 
 print(f"""
-media do primeiro semestre: {nota}
+media do primeiro semestre: {nota_total:.1f}
+média com peso do primeiro semestre: {nota:.1f}
 """)
 

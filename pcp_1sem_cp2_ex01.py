@@ -34,7 +34,4 @@ print("\n---Resultados---")
 print(f"Peso da carga: {peso_kg:.2f} Kg")
 print(f"Preço da carga: R$ {preco_carga:.2f}")
 print(f"Imposto: R$ {imposto:.2f}")
-
-
-
-
+print(f"valor total: R$ {total:.2f}")
